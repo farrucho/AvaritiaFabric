@@ -1,9 +1,13 @@
 {
   "block.avaritia.neutron_collector": "Neutron Collector",
+  "item.avaritia.skullfire_sword": "SkullFire Sword",
   "item.avaritia.neutron_pile": "Neutron Pile",
   "item.avaritia.crystal_matrix_ingot": "Crystal Matrix Ingot",
   "item.avaritia.diamond_lattice": "Diamond Lattice",
+  "item.avaritia.neutronium_nugget": "Neutronium Nugget",
+  "item.avaritia.neutronium_ingot": "Neutronium Ingot",
   "block.avaritia.extreme_crafting_table": "Extreme Crafting Table",
   "block.avaritia.compressed_crafting_table": "Compressed Crafting Table",
   "block.avaritia.double_compressed_crafting_table": "Double Compressed Crafting Table"
+
 }

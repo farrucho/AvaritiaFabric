@@ -1,5 +1,6 @@
 package net.farrucho.avaritia.block.entity;
 
+import net.farrucho.avaritia.Avaritia;
 import net.farrucho.avaritia.block.AvaritiaModBlocks;
 import net.farrucho.avaritia.block.AvaritiaModItems;
 import net.farrucho.avaritia.screen.NeutronCollectorScreen;
@@ -12,6 +13,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.inventory.Inventories;
 import net.minecraft.inventory.Inventory;
+import net.minecraft.inventory.SimpleInventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.nbt.NbtCompound;
@@ -57,8 +59,7 @@ public class NeutronCollectorBlockEntity extends BlockEntity implements NamedScr
         };
     }
 
-
-
+    
 
     @Override
     public DefaultedList<ItemStack> getItems() {

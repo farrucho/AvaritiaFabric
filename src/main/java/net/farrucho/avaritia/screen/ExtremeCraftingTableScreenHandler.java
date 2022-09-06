@@ -23,7 +23,7 @@ public class ExtremeCraftingTableScreenHandler extends ScreenHandler{
     //The client will call the other constructor with an empty Inventory and the screenHandler will automatically
     //sync this empty inventory with the inventory on the server.
     public ExtremeCraftingTableScreenHandler(int syncId, PlayerInventory playerInventory) {
-        this(syncId, playerInventory, new SimpleInventory(81));
+        this(syncId, playerInventory, new SimpleInventory(82));
     }
 
     //This constructor gets called from the BlockEntity on the server without calling the other constructor first, the server knows the inventory of the container
@@ -45,25 +45,7 @@ public class ExtremeCraftingTableScreenHandler extends ScreenHandler{
         addPlayerInventory(playerInventory);
         addPlayerHotbar(playerInventory);
 
-        //this.addSlot(new NeutronCollectorOutputSlot(inventory,0,80,35));
-        //The player inventory
-        /*for (m = 0; m < 3; ++m) {
-            for (l = 0; l < 9; ++l) {
-                this.addSlot(new Slot(playerInventory, l + m * 9 + 9, -1 + l * 18, 129 + m * 18));
-            }
-        }
-        //The player Hotbar
-        for (m = 0; m < 9; ++m) {
-            this.addSlot(new Slot(playerInventory, m, -1 + m * 18, 187));
-        }*/
-
-
-        //this.addSlot(new Slot(inventory,0,-40,0));
-        /*for (m = 0; m < 9; ++m) {
-            for (l = 0; l < 9; ++l) {
-                this.addSlot(new Slot(inventory, l + m * 9, -18 - 9 -1 + l * 18, -18 -18 -1 + m * 18));
-            }
-        }*/
+        this.addSlot(new NeutronCollectorOutputSlot(inventory,81,202,80));
     }
 
 

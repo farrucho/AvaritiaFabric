@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cdfaf821-2a86-4233-9cff-3c6fadd80c68" name="Changes" comment="First Commit">
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/farrucho/avaritia/Avaritia.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/farrucho/avaritia/Avaritia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/farrucho/avaritia/block/AvaritiaModItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/farrucho/avaritia/block/AvaritiaModItems.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/farrucho/avaritia/block/custom/ExtremeCraftingTableBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/farrucho/avaritia/block/custom/ExtremeCraftingTableBlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/farrucho/avaritia/block/entity/ExtremeCraftingTableBlockEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/farrucho/avaritia/block/entity/ExtremeCraftingTableBlockEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/farrucho/avaritia/block/entity/NeutronCollectorBlockEntity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/farrucho/avaritia/block/entity/NeutronCollectorBlockEntity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/farrucho/avaritia/block/entity/NeutronCollectorBlockEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/farrucho/avaritia/block/entity/NeutronCollectorBlockEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/farrucho/avaritia/block/entity/NeutronCollectorOutputSlot.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/farrucho/avaritia/block/entity/NeutronCollectorOutputSlot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/farrucho/avaritia/screen/ExtremeCraftingTableScreenHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/farrucho/avaritia/screen/ExtremeCraftingTableScreenHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/avaritia/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/avaritia/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/avaritia/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/avaritia/textures/gui/extreme_crafting_table_gui.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/avaritia/textures/gui/extreme_crafting_table_gui.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/avaritia/recipes/items/diamond_lattice.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2022-09-06-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-09-06-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2022-09-06-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-09-06-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2022-09-06-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-09-06-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2022-09-06-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-09-06-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2022-09-06-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-09-06-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2022-09-06-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-09-06-6.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2022-09-06-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-09-06-7.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/farrucho/avaritia/Avaritia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/farrucho/avaritia/Avaritia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/farrucho/avaritia/block/AvaritiaModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/farrucho/avaritia/block/AvaritiaModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/farrucho/avaritia/block/entity/ExtremeCraftingTableBlockEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/farrucho/avaritia/block/entity/ExtremeCraftingTableBlockEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/farrucho/avaritia/block/entity/NeutronCollectorBlockEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/farrucho/avaritia/block/entity/NeutronCollectorBlockEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/farrucho/avaritia/block/entity/NeutronCollectorOutputSlot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/farrucho/avaritia/block/entity/NeutronCollectorOutputSlot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/farrucho/avaritia/screen/ExtremeCraftingTableScreenHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/farrucho/avaritia/screen/ExtremeCraftingTableScreenHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/avaritia/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/avaritia/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/avaritia/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/avaritia/textures/gui/extreme_crafting_table_gui.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/avaritia/textures/gui/extreme_crafting_table_gui.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/avaritia/recipes/items/diamond_lattice.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AvaritiaFabric" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AvaritiaFabric" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/.gradle/loom-cache/1.19.2/net.fabricmc.yarn.1_19_2.1.19.2+build.8-v2/minecraft-project-@-merged-named-sources.jar!/net/minecraft/screen/GenericContainerScreenHandler.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="2EHXW3N12c0mXq3JOlfHEJDssVA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/farrucho/coding projects/minecraft/AvaritiaFabric/src/main/resources/assets/avaritia/models/item"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/avaritia/models/item" />
+      <recent name="$PROJECT_DIR$/src/main/resources/data/avaritia/recipes/blocks" />
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/avaritia/textures/item" />
+      <recent name="$PROJECT_DIR$/src/main/resources/data/avaritia/recipes/items" />
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/avaritia/blockstates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/avaritia/textures/item" />
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/avaritia/textures/block" />
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/trashcans/textures/block" />
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/trashcans/models/block" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.farrucho.avaritia.block.entity" />
+      <recent name="net.farrucho.avaritia.screen" />
+      <recent name="net.farrucho.avaritia.block.custom" />
+      <recent name="net.farrucho.avaritia.block" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.AvaritiaFabric [runClient]">
+    <configuration name="AvaritiaFabric [runClient]" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" value="-Xmx1024m" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Minecraft Client" />
+      <item itemvalue="Application.Minecraft Server" />
+      <item itemvalue="Gradle.AvaritiaFabric [runClient]" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdfaf821-2a86-4233-9cff-3c6fadd80c68" name="Changes" comment="" />
+      <created>1662253513907</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662253513907</updated>
+    </task>
+    <task id="LOCAL-00001" summary="First commit&#10;funcao tick neutron collect vazia">
+      <created>1662333185966</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662333185966</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First commit&#10;funcao tick neutron collect vazia">
+      <created>1662395831464</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662395831464</updated>
+    </task>
+    <task id="LOCAL-00003" summary="First commit&#10;funcao tick neutron collect vazia">
+      <created>1662395859194</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662395859194</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="neutron collector feito&#10;comecou implementação da xtreme crafting table" />
+    <MESSAGE value="First commit&#10;funcao tick neutron collect vazia" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit&#10;funcao tick neutron collect vazia" />
+  </component>
+</project>
