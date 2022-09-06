@@ -1,0 +1,20 @@
+{
+  "type": "trashcans:trash_can",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "trashcans:trash_can"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

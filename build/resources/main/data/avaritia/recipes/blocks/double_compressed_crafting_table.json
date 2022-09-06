@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"result": {
+		"item": "avaritia:double_compressed_crafting_table",
+		"count": 1
+	},
+	"pattern": [
+		"CCC",
+		"CCC",
+		"CCC"
+	],
+	"key": {
+		"C": {
+			"type": "minecraft:item",
+			"item": "avaritia:compressed_crafting_table"
+		}
+	}
+}

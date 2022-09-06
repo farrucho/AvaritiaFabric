@@ -1,0 +1,15 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2022-09-06 02:21:40 +0100"
+    },
+    "done": false
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2022-09-06 02:22:19 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}

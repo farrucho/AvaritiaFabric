@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/orientable",
+	"textures": {
+		"front": "avaritia:block/compressed",
+		"side": "avaritia:block/compressed",
+		"top": "avaritia:block/compressed"
+	}
+}

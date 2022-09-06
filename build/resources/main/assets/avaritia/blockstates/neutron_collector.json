@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model":  "avaritia:block/neutron_collector" }
+  }
+}

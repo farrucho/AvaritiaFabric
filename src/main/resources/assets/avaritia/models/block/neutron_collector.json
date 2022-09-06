@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/orientable",
+	"textures": {
+		"front": "avaritia:block/neutron_collector_front",
+		"side": "avaritia:block/neutron_collector_side",
+		"top": "avaritia:block/neutron_collector_top"
+	}
+}

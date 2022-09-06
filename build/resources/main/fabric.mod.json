@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "trashcans",
+  "version": "0.0.1-1.19.X",
+
+  "name": "Trash Cans Mod",
+  "description": "Tired of burning your items in lava? This mod adds a craftable Trash Can.",
+  "authors": [
+    "farrucho"
+  ],
+  "license": "MIT License",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.farrucho.avaritia.Avaritia"
+    ],
+    "client": [
+      "net.farrucho.avaritia.AvaritiaClient"
+    ]
+  },
+  "mixins": [
+    "avaritia.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
