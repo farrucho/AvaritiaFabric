@@ -11,12 +11,12 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.SwordItem;
+import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class AvaritiaModItems {
     public static final Item NEUTRON_PILE = registerItem("neutron_pile", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
-
 
     public static final Item DIAMOND_LATTICE = registerItem("diamond_lattice", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 

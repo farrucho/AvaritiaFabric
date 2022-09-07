@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "result": {
-    "item": "avaritia:neutronium_ingot",
+    "item": "avaritia:neutronium_block",
     "count": 1
   },
   "pattern": [
@@ -12,7 +12,7 @@
   "key": {
     "C": {
       "type": "minecraft:item",
-      "item": "avaritia:neutronium_nugget"
+      "item": "avaritia:neutronium_ingot"
     }
   }
 }

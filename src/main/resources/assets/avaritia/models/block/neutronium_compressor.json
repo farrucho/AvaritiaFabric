@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/orientable",
+	"textures": {
+		"front": "avaritia:block/neutronium_compressor_front",
+		"side": "avaritia:block/neutronium_compressor_side",
+		"top": "avaritia:block/neutronium_compressor_top"
+	}
+}

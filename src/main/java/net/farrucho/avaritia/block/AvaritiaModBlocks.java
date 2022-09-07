@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.farrucho.avaritia.Avaritia;
 import net.farrucho.avaritia.block.custom.ExtremeCraftingTableBlock;
 import net.farrucho.avaritia.block.custom.NeutronCollectorBlock;
+import net.farrucho.avaritia.block.custom.NeutroniumCompressorBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
@@ -18,9 +19,15 @@ public class AvaritiaModBlocks {
 
     public static final Block EXTREME_CRAFTING_TABLE = registerBlock("extreme_crafting_table", new ExtremeCraftingTableBlock(FabricBlockSettings.of(Material.STONE)),ItemGroup.MISC);
 
+    public static final Block NEUTRONIUM_COMPRESSOR = registerBlock("neutronium_compressor", new NeutroniumCompressorBlock(FabricBlockSettings.of(Material.STONE)),ItemGroup.MISC);
+
     public static final Block COMPRESSED_CRAFTING_TABLE = registerBlock("compressed_crafting_table", new Block(FabricBlockSettings.of(Material.WOOD)),ItemGroup.MISC);
 
     public static final Block DOUBLE_COMPRESSED_CRAFTING_TABLE = registerBlock("double_compressed_crafting_table", new Block(FabricBlockSettings.of(Material.WOOD)),ItemGroup.MISC);
+
+    public static final Block NEUTRONIUM_BLOCK = registerBlock("neutronium_block", new Block(FabricBlockSettings.of(Material.STONE)),ItemGroup.MISC);
+
+
 
 
 

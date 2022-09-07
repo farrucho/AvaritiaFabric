@@ -1,0 +1,20 @@
+{
+  "type": "avaritia:neutronium_compressor",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "avaritia:neutronium_compressor"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

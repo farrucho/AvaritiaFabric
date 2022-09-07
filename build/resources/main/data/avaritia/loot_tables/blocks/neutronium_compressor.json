@@ -1,5 +1,5 @@
 {
-  "type": "trashcans:trash_can",
+  "type": "avaritia:neutronium_compressor",
   "pools": [
     {
       "bonus_rolls": 0.0,
@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "trashcans:trash_can"
+          "name": "avaritia:neutronium_compressor"
         }
       ],
       "rolls": 1.0

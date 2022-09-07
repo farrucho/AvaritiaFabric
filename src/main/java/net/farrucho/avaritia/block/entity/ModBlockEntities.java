@@ -10,8 +10,18 @@ import net.minecraft.util.registry.Registry;
 public class ModBlockEntities {
     public static  BlockEntityType<ExtremeCraftingTableBlockEntity> EXTREME_CRAFTING_TABLE;
     public static BlockEntityType<NeutronCollectorBlockEntity> NEUTRON_COLLECTOR;
+    public static BlockEntityType<NeutroniumCompressorBlockEntity> NEUTRONIUM_COMPRESSOR;
+
 
     public static void registerAllBlockEntities(){
+        NEUTRONIUM_COMPRESSOR = Registry.register(
+                Registry.BLOCK_ENTITY_TYPE,
+                new Identifier(Avaritia.MOD_ID, "neutronium_compressor"),
+                FabricBlockEntityTypeBuilder.create(
+                        NeutroniumCompressorBlockEntity::new, AvaritiaModBlocks.NEUTRONIUM_COMPRESSOR).build(null)
+        );
+
+
         NEUTRON_COLLECTOR = Registry.register(
                 Registry.BLOCK_ENTITY_TYPE,
                 new Identifier(Avaritia.MOD_ID, "neutron_collector"),
