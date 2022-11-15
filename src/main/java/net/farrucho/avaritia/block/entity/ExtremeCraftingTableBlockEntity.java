@@ -35,7 +35,9 @@ public class ExtremeCraftingTableBlockEntity extends BlockEntity implements Name
     @Override
     public Text getDisplayName() {
         return Text.translatable(getCachedState().getBlock().getTranslationKey());
+        //return new TranslatableText(getCachedState().getBlock().getTranslationKey());
     }
+    // For versions 1.18.2 and below, please use return new TranslatableText(getCachedState().getBlock().getTranslationKey());
 
     @Override//adicionar isto para quando sair do mundo progresso estar guardado
     protected void writeNbt(NbtCompound nbt) {
@@ -225,7 +227,6 @@ public class ExtremeCraftingTableBlockEntity extends BlockEntity implements Name
                 entity.inventory.get(62).getItem() == Items.IRON_BLOCK &&
 
 
-
                 entity.inventory.get(63).getItem() == Items.IRON_BLOCK &&
                 entity.inventory.get(64).getItem() == Items.AIR &&
                 entity.inventory.get(65).getItem() == Items.AIR &&
@@ -247,6 +248,216 @@ public class ExtremeCraftingTableBlockEntity extends BlockEntity implements Name
                 entity.inventory.get(80).getItem() == Items.IRON_BLOCK);
     }
 
+    private static boolean hasNeutroniumCompressor(ExtremeCraftingTableBlockEntity entity){
+        return (entity.inventory.get(0).getItem() == Items.IRON_BLOCK &&
+                entity.inventory.get(1).getItem() == Items.IRON_BLOCK &&
+                entity.inventory.get(2).getItem() == Items.IRON_BLOCK &&
+                entity.inventory.get(3).getItem() == Items.HOPPER &&
+                entity.inventory.get(4).getItem() == Items.HOPPER &&
+                entity.inventory.get(5).getItem() == Items.HOPPER &&
+                entity.inventory.get(6).getItem() == Items.IRON_BLOCK &&
+                entity.inventory.get(7).getItem() == Items.IRON_BLOCK &&
+                entity.inventory.get(8).getItem() == Items.IRON_BLOCK &&
+
+                entity.inventory.get(9).getItem() == AvaritiaModItems.CRYSTAL_MATRIX_INGOT &&
+                entity.inventory.get(10).getItem() == Items.AIR &&
+                entity.inventory.get(11).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(12).getItem() == Items.AIR &&
+                entity.inventory.get(13).getItem() == Items.AIR &&
+                entity.inventory.get(14).getItem() == Items.AIR &&
+                entity.inventory.get(15).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(16).getItem() == Items.AIR &&
+                entity.inventory.get(17).getItem() == AvaritiaModItems.CRYSTAL_MATRIX_INGOT &&
+
+                entity.inventory.get(18).getItem() == Items.IRON_BLOCK &&
+                entity.inventory.get(19).getItem() == Items.AIR &&
+                entity.inventory.get(20).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(21).getItem() == Items.AIR &&
+                entity.inventory.get(22).getItem() == Items.AIR &&
+                entity.inventory.get(23).getItem() == Items.AIR &&
+                entity.inventory.get(24).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(25).getItem() == Items.AIR &&
+                entity.inventory.get(26).getItem() == Items.IRON_BLOCK &&
+
+                entity.inventory.get(27).getItem() == AvaritiaModItems.CRYSTAL_MATRIX_INGOT &&
+                entity.inventory.get(28).getItem() == Items.AIR &&
+                entity.inventory.get(29).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(30).getItem() == Items.AIR &&
+                entity.inventory.get(31).getItem() == Items.AIR &&
+                entity.inventory.get(32).getItem() == Items.AIR &&
+                entity.inventory.get(33).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(34).getItem() == Items.AIR &&
+                entity.inventory.get(35).getItem() == AvaritiaModItems.CRYSTAL_MATRIX_INGOT &&
+
+                entity.inventory.get(36).getItem() == Items.REDSTONE_BLOCK &&
+                entity.inventory.get(37).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(38).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(39).getItem() == Items.AIR &&
+                entity.inventory.get(40).getItem() == (AvaritiaModBlocks.NEUTRONIUM_BLOCK).asItem() &&
+                entity.inventory.get(41).getItem() == Items.AIR &&
+                entity.inventory.get(42).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(43).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(44).getItem() == Items.REDSTONE_BLOCK &&
+
+                entity.inventory.get(45).getItem() == AvaritiaModItems.CRYSTAL_MATRIX_INGOT &&
+                entity.inventory.get(46).getItem() == Items.AIR &&
+                entity.inventory.get(47).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(48).getItem() == Items.AIR &&
+                entity.inventory.get(49).getItem() == Items.AIR &&
+                entity.inventory.get(50).getItem() == Items.AIR &&
+                entity.inventory.get(51).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(52).getItem() == Items.AIR &&
+                entity.inventory.get(53).getItem() == AvaritiaModItems.CRYSTAL_MATRIX_INGOT &&
+
+                entity.inventory.get(54).getItem() == Items.IRON_BLOCK &&
+                entity.inventory.get(55).getItem() == Items.AIR &&
+                entity.inventory.get(56).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(57).getItem() == Items.AIR &&
+                entity.inventory.get(58).getItem() == Items.AIR &&
+                entity.inventory.get(59).getItem() == Items.AIR &&
+                entity.inventory.get(60).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(61).getItem() == Items.AIR &&
+                entity.inventory.get(62).getItem() == Items.IRON_BLOCK &&
+
+                entity.inventory.get(63).getItem() == AvaritiaModItems.CRYSTAL_MATRIX_INGOT &&
+                entity.inventory.get(64).getItem() == Items.AIR &&
+                entity.inventory.get(65).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(66).getItem() == Items.AIR &&
+                entity.inventory.get(67).getItem() == Items.AIR &&
+                entity.inventory.get(68).getItem() == Items.AIR &&
+                entity.inventory.get(69).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(70).getItem() == Items.AIR &&
+                entity.inventory.get(71).getItem() == AvaritiaModItems.CRYSTAL_MATRIX_INGOT &&
+
+                entity.inventory.get(72).getItem() == Items.IRON_BLOCK &&
+                entity.inventory.get(73).getItem() == Items.IRON_BLOCK &&
+                entity.inventory.get(74).getItem() == Items.IRON_BLOCK &&
+                entity.inventory.get(75).getItem() == AvaritiaModItems.CRYSTAL_MATRIX_INGOT &&
+                entity.inventory.get(76).getItem() == Items.IRON_BLOCK &&
+                entity.inventory.get(77).getItem() == AvaritiaModItems.CRYSTAL_MATRIX_INGOT &&
+                entity.inventory.get(78).getItem() == Items.IRON_BLOCK &&
+                entity.inventory.get(79).getItem() == Items.IRON_BLOCK &&
+                entity.inventory.get(80).getItem() == Items.IRON_BLOCK);
+    }
+
+    private static boolean hasUltimateStew(ExtremeCraftingTableBlockEntity entity){
+        int c;
+        for(c=15; c < 81; c++){
+            if(entity.inventory.get(c).getItem() != Items.AIR){
+                return false;
+            }
+        }
+
+        return (entity.inventory.get(0).getItem() == AvaritiaModItems.NEUTRON_PILE &&
+                entity.inventory.get(1).getItem() == Items.WHEAT &&
+                entity.inventory.get(2).getItem() == Items.WHEAT &&
+                entity.inventory.get(3).getItem() == Items.CARROT &&
+                entity.inventory.get(4).getItem() == Items.CARROT &&
+                entity.inventory.get(5).getItem() == Items.POTATO &&
+                entity.inventory.get(6).getItem() == Items.POTATO &&
+                entity.inventory.get(7).getItem() == Items.CACTUS &&
+                entity.inventory.get(8).getItem() == Items.CACTUS &&
+
+                entity.inventory.get(9).getItem() == Items.RED_MUSHROOM &&
+                entity.inventory.get(10).getItem() == Items.RED_MUSHROOM &&
+                entity.inventory.get(11).getItem() == Items.BROWN_MUSHROOM &&
+                entity.inventory.get(12).getItem() == Items.BROWN_MUSHROOM &&
+                entity.inventory.get(13).getItem() == Items.NETHER_WART &&
+                entity.inventory.get(14).getItem() == Items.NETHER_WART);
+    }
+
+    private static boolean hasEndestPearl(ExtremeCraftingTableBlockEntity entity){
+        return (entity.inventory.get(0).getItem() == Items.AIR &&
+                entity.inventory.get(1).getItem() == Items.AIR &&
+                entity.inventory.get(2).getItem() == Items.AIR &&
+                entity.inventory.get(3).getItem() == Items.END_STONE &&
+                entity.inventory.get(4).getItem() == Items.END_STONE &&
+                entity.inventory.get(5).getItem() == Items.END_STONE &&
+                entity.inventory.get(6).getItem() == Items.AIR &&
+                entity.inventory.get(7).getItem() == Items.AIR &&
+                entity.inventory.get(8).getItem() == Items.AIR &&
+
+                entity.inventory.get(9).getItem() == Items.AIR &&
+                entity.inventory.get(10).getItem() == Items.END_STONE &&
+                entity.inventory.get(11).getItem() == Items.END_STONE &&
+                entity.inventory.get(12).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(13).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(14).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(15).getItem() == Items.END_STONE &&
+                entity.inventory.get(16).getItem() == Items.END_STONE &&
+                entity.inventory.get(17).getItem() == Items.AIR &&
+
+                entity.inventory.get(18).getItem() == Items.AIR &&
+                entity.inventory.get(19).getItem() == Items.END_STONE &&
+                entity.inventory.get(20).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(21).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(22).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(23).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(24).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(25).getItem() == Items.END_STONE &&
+                entity.inventory.get(26).getItem() == Items.AIR &&
+
+                entity.inventory.get(27).getItem() == Items.END_STONE &&
+                entity.inventory.get(28).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(29).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(30).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(31).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(32).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(33).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(34).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(35).getItem() == Items.END_STONE &&
+
+                entity.inventory.get(36).getItem() == Items.END_STONE &&
+                entity.inventory.get(37).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(38).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(39).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(40).getItem() == Items.NETHER_STAR &&
+                entity.inventory.get(41).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(42).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(43).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(44).getItem() == Items.REDSTONE_BLOCK &&
+
+                entity.inventory.get(45).getItem() == Items.END_STONE &&
+                entity.inventory.get(46).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(47).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(48).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(49).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(50).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(51).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(52).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(53).getItem() == Items.END_STONE &&
+
+                entity.inventory.get(54).getItem() == Items.AIR &&
+                entity.inventory.get(55).getItem() == Items.END_STONE &&
+                entity.inventory.get(56).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(57).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(58).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(59).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(60).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(61).getItem() == Items.END_STONE &&
+                entity.inventory.get(62).getItem() == Items.AIR &&
+
+                entity.inventory.get(63).getItem() == Items.AIR &&
+                entity.inventory.get(64).getItem() == Items.END_STONE &&
+                entity.inventory.get(65).getItem() == Items.END_STONE &&
+                entity.inventory.get(66).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(67).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(68).getItem() == Items.ENDER_PEARL &&
+                entity.inventory.get(69).getItem() == Items.END_STONE &&
+                entity.inventory.get(70).getItem() == Items.END_STONE &&
+                entity.inventory.get(71).getItem() == Items.AIR &&
+
+                entity.inventory.get(72).getItem() == Items.AIR &&
+                entity.inventory.get(73).getItem() == Items.AIR &&
+                entity.inventory.get(74).getItem() == Items.AIR &&
+                entity.inventory.get(75).getItem() == Items.END_STONE &&
+                entity.inventory.get(76).getItem() == Items.END_STONE &&
+                entity.inventory.get(77).getItem() == Items.END_STONE &&
+                entity.inventory.get(78).getItem() == Items.AIR &&
+                entity.inventory.get(79).getItem() == Items.AIR &&
+                entity.inventory.get(80).getItem() == Items.AIR);
+    }
+
 
 
     private static void craftItem(ExtremeCraftingTableBlockEntity entity, ItemStack itemStack){//se ja ouver 64 o jogo crasha provavel
@@ -258,7 +469,16 @@ public class ExtremeCraftingTableBlockEntity extends BlockEntity implements Name
             craftItem(entity, new ItemStack(AvaritiaModItems.SKULLFIRE_SWORD, 1));
         }else if(hasNeutronCollector(entity)){//se tem outro recipe
             craftItem(entity, new ItemStack(AvaritiaModBlocks.NEUTRON_COLLECTOR, 1));
-        }else{
+        }else if(hasNeutroniumCompressor(entity)){
+            craftItem(entity, new ItemStack(AvaritiaModBlocks.NEUTRONIUM_COMPRESSOR, 1));
+        }else if(hasUltimateStew(entity)){
+            craftItem(entity, new ItemStack(AvaritiaModItems.ULTIMATE_STEW, 1));
+        }else if(hasEndestPearl(entity)){
+            craftItem(entity, new ItemStack(AvaritiaModItems.ENDEST_PEARL, 1));
+        }
+
+
+        else{
             entity.getStack(81).setCount(0);//clear output slot
         }
     }

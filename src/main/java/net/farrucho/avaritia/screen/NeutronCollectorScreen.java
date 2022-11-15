@@ -23,6 +23,8 @@ public class NeutronCollectorScreen extends HandledScreen<NeutronCollectorScreen
 
     @Override
     protected void drawBackground(MatrixStack matrices, float delta, int mouseX, int mouseY) {
+        String formattedString = String.format("%.02f", handler.getScaledProgress());
+
         RenderSystem.setShader(GameRenderer::getPositionTexShader);
         RenderSystem.setShaderColor(1.0F, 1.0F, 1.0F, 1.0F);
         RenderSystem.setShaderTexture(0, TEXTURE);
@@ -32,7 +34,7 @@ public class NeutronCollectorScreen extends HandledScreen<NeutronCollectorScreen
 
         matrices.push();
         matrices.translate(x, y, 0);
-        textRenderer.draw(matrices, "Progress: " + String.valueOf(handler.getScaledProgress()) + "%",50,60,0);
+        textRenderer.draw(matrices, "Progress: " + formattedString + "%",50,60,0);
         matrices.pop();
 
     }

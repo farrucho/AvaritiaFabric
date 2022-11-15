@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
-    "trashcans:trash_can"
+    "avaritia:compressed_crafting_table",
+    "avaritia:double_compressed_crafting_table",
+    "avaritia:extreme_crafting_table",
+    "avaritia:neutron_collector",
+    "avaritia:neutronium_block",
+    "avaritia:neutronium_compressor"
   ]
 }

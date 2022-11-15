@@ -72,7 +72,9 @@ public class NeutroniumCompressorBlockEntity extends BlockEntity implements Name
     @Override
     public Text getDisplayName() {
         return Text.translatable(getCachedState().getBlock().getTranslationKey());
+        //return new TranslatableText(getCachedState().getBlock().getTranslationKey());
     }
+    // For versions 1.18.2 and below, please use return new TranslatableText(getCachedState().getBlock().getTranslationKey());
 
     @Nullable
     @Override
@@ -117,9 +119,12 @@ public class NeutroniumCompressorBlockEntity extends BlockEntity implements Name
     }
 
     private static void addToProgress(NeutroniumCompressorBlockEntity entity){
+        if(entity.inventory.get(0).getItem() == null){
+            return;
+        }
         if(entity.inventory.get(0).getItem() == Items.REDSTONE_BLOCK ||
                 entity.inventory.get(0).getItem() == Items.IRON_BLOCK ||
-                entity.inventory.get(0).getItem() == Items.COAL_BLOCK ||
+                entity.inventory.get(0).getItem() == Items.LAPIS_BLOCK ||
                 entity.inventory.get(0).getItem() == Items.DIAMOND_BLOCK ||
                 entity.inventory.get(0).getItem() == Items.EMERALD_BLOCK ||
                 entity.inventory.get(0).getItem() == Items.GOLD_BLOCK ||
@@ -141,8 +146,8 @@ public class NeutroniumCompressorBlockEntity extends BlockEntity implements Name
             return "DIAMOND";
         }else if(item == Items.EMERALD_BLOCK || item == Items.EMERALD){
             return "EMERALD";
-        }else if(item == Items.COAL_BLOCK || item == Items.COAL){
-            return "COAL";
+        }else if(item == Items.LAPIS_BLOCK || item == Items.LAPIS_LAZULI){
+            return "LAPIS";
         }else if(item == Items.QUARTZ_BLOCK || item == Items.QUARTZ){
             return "QUARTZ";
         }else{
@@ -152,19 +157,19 @@ public class NeutroniumCompressorBlockEntity extends BlockEntity implements Name
 
     private static Item getSingularityToCraft(NeutroniumCompressorBlockEntity entity){
         if(Objects.equals(entity.material, "IRON")){
-            return Items.IRON_BLOCK;
+            return AvaritiaModItems.IRON_SINGULARITY;
         }else if(Objects.equals(entity.material, "REDSTONE")){
-            return Items.REDSTONE_BLOCK;
+            return AvaritiaModItems.REDSTONE_SINGULARITY;
         }else if(Objects.equals(entity.material, "GOLD")){
-            return Items.GOLD_BLOCK;
+            return AvaritiaModItems.GOLD_SINGULARITY;
         }else if(Objects.equals(entity.material, "DIAMOND")){
-            return Items.DIAMOND_BLOCK;
+            return AvaritiaModItems.DIAMOND_SINGULARITY;
         }else if(Objects.equals(entity.material, "EMERALD")){
-            return Items.EMERALD_BLOCK;
-        }else if(Objects.equals(entity.material, "COAL")){
-            return Items.COAL_BLOCK;
+            return AvaritiaModItems.EMERALD_SINGULARITY;
+        }else if(Objects.equals(entity.material, "LAPIS")){
+            return AvaritiaModItems.LAPIS_SINGULARITY;
         }else if(Objects.equals(entity.material, "QUARTZ")){
-            return Items.QUARTZ_BLOCK;
+            return AvaritiaModItems.QUARTZ_SINGULARITY;
         }else{
             return null;
         }

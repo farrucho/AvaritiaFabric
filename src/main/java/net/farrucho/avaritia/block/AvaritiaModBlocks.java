@@ -15,17 +15,17 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class AvaritiaModBlocks {
-    public static final Block NEUTRON_COLLECTOR = registerBlock("neutron_collector", new NeutronCollectorBlock(FabricBlockSettings.of(Material.STONE)),ItemGroup.MISC);
+    public static final Block NEUTRON_COLLECTOR = registerBlock("neutron_collector", new NeutronCollectorBlock(FabricBlockSettings.of(Material.STONE).hardness(15).requiresTool()),Avaritia.AVARITIA_GROUP);
 
-    public static final Block EXTREME_CRAFTING_TABLE = registerBlock("extreme_crafting_table", new ExtremeCraftingTableBlock(FabricBlockSettings.of(Material.STONE)),ItemGroup.MISC);
+    public static final Block EXTREME_CRAFTING_TABLE = registerBlock("extreme_crafting_table", new ExtremeCraftingTableBlock(FabricBlockSettings.of(Material.STONE).hardness(10).requiresTool()),Avaritia.AVARITIA_GROUP);
 
-    public static final Block NEUTRONIUM_COMPRESSOR = registerBlock("neutronium_compressor", new NeutroniumCompressorBlock(FabricBlockSettings.of(Material.STONE)),ItemGroup.MISC);
+    public static final Block NEUTRONIUM_COMPRESSOR = registerBlock("neutronium_compressor", new NeutroniumCompressorBlock(FabricBlockSettings.of(Material.STONE).hardness(15).requiresTool()),Avaritia.AVARITIA_GROUP);
 
-    public static final Block COMPRESSED_CRAFTING_TABLE = registerBlock("compressed_crafting_table", new Block(FabricBlockSettings.of(Material.WOOD)),ItemGroup.MISC);
+    public static final Block COMPRESSED_CRAFTING_TABLE = registerBlock("compressed_crafting_table", new Block(FabricBlockSettings.of(Material.WOOD).requiresTool().hardness(6)),Avaritia.AVARITIA_GROUP);
 
-    public static final Block DOUBLE_COMPRESSED_CRAFTING_TABLE = registerBlock("double_compressed_crafting_table", new Block(FabricBlockSettings.of(Material.WOOD)),ItemGroup.MISC);
+    public static final Block DOUBLE_COMPRESSED_CRAFTING_TABLE = registerBlock("double_compressed_crafting_table", new Block(FabricBlockSettings.of(Material.WOOD).hardness(6).requiresTool()),Avaritia.AVARITIA_GROUP);
 
-    public static final Block NEUTRONIUM_BLOCK = registerBlock("neutronium_block", new Block(FabricBlockSettings.of(Material.STONE)),ItemGroup.MISC);
+    public static final Block NEUTRONIUM_BLOCK = registerBlock("neutronium_block", new Block(FabricBlockSettings.of(Material.STONE).hardness(10).requiresTool()),Avaritia.AVARITIA_GROUP);
 
 
 

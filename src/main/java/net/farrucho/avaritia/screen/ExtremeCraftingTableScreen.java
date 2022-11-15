@@ -7,8 +7,14 @@ import net.minecraft.client.render.GameRenderer;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
+import net.minecraft.item.ItemStack;
+import net.minecraft.screen.ScreenHandler;
+import net.minecraft.screen.slot.Slot;
 import net.minecraft.text.Text;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Util;
+import net.minecraft.util.math.MathHelper;
 
 public class ExtremeCraftingTableScreen extends HandledScreen<ExtremeCraftingTableScreenHandler> {
     //A path to the gui texture. In this example we use the texture from the dispenser
@@ -20,7 +26,7 @@ public class ExtremeCraftingTableScreen extends HandledScreen<ExtremeCraftingTab
     }
 
     public ExtremeCraftingTableScreen(ExtremeCraftingTableScreenHandler handler, PlayerInventory inventory, Text title) {
-        super(handler, inventory, title);
+        super(handler, inventory, Text.of(""));
         this.backgroundWidth = 239;
         this.backgroundHeight = 256;
     }
@@ -34,15 +40,26 @@ public class ExtremeCraftingTableScreen extends HandledScreen<ExtremeCraftingTab
         int x = (width - 256) / 2;
         int y = (height - 256) / 2;
 
-        drawTexture(matrices, x, y, 0, 0, 256, 256);//256 é o tamanho da cenea
+        drawTexture(matrices, x, y, 0, 0, 256, 256);//256 é o tamanho dSa cenea
     }
 
     @Override
     public void render(MatrixStack matrices, int mouseX, int mouseY, float delta) {
         renderBackground(matrices);
+
+
         super.render(matrices, mouseX, mouseY, delta);
+
+
         drawMouseoverTooltip(matrices, mouseX, mouseY);
     }
+
+    @Override
+    protected void drawForeground(MatrixStack matrices, int mouseX, int mouseY) {
+        //super.drawForeground(matrices, mouseX, mouseY);
+    }
+
+
 
 
     @Override
@@ -51,7 +68,6 @@ public class ExtremeCraftingTableScreen extends HandledScreen<ExtremeCraftingTab
         // Center the title
         titleX = (backgroundWidth - textRenderer.getWidth(title)) / 2;
     }
-
 
 
 }

@@ -64,11 +64,20 @@ public class NeutroniumCompressorScreenHandler extends ScreenHandler{
     }
 
 
-    public float getScaledProgress() {
-        float progress = this.propertyDelegate.get(0);
-        float maxProgress = this.propertyDelegate.get(1);  // Max Progress
+    public int getScaledProgressSingularity() {
+        int progress = this.propertyDelegate.get(0);
+        int maxProgress = this.propertyDelegate.get(1);  // Max Progress
+        int progressArrowSize = 18; // This is the width in pixels of your arrow
 
-        return maxProgress != 0 && progress != 0 ? progress * 100 / maxProgress : 0;
+        return maxProgress != 0 && progress != 0 ? progress * progressArrowSize / maxProgress : 0;
+    }
+
+    public int getScaledProgressArrow() {
+        int progress = this.propertyDelegate.get(0);
+        int maxProgress = this.propertyDelegate.get(1);  // Max Progress
+        int progressArrowSize = 22; // This is the width in pixels of your arrow
+
+        return maxProgress != 0 && progress != 0 ? progress * progressArrowSize / maxProgress : 0;
     }
 
     public float getCurrentProgress() {

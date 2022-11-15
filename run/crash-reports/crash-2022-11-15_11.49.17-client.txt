@@ -1,0 +1,167 @@
+---- Minecraft Crash Report ----
+// Why is it breaking :(
+
+Time: 2022-11-15 11:49:17
+Description: Rendering screen
+
+java.lang.NullPointerException: Cannot invoke "net.minecraft.text.Text.asOrderedText()" because "text" is null
+	at net.minecraft.client.font.TextRenderer.draw(TextRenderer.java:89)
+	at net.minecraft.client.gui.screen.ingame.HandledScreen.drawForeground(HandledScreen.java:208)
+	at net.minecraft.client.gui.screen.ingame.HandledScreen.render(HandledScreen.java:134)
+	at net.farrucho.avaritia.screen.ExtremeCraftingTableScreen.render(ExtremeCraftingTableScreen.java:43)
+	at net.minecraft.client.render.GameRenderer.render(GameRenderer.java:881)
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1177)
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:768)
+	at net.minecraft.client.main.Main.main(Main.java:244)
+	at net.minecraft.client.main.Main.main(Main.java:51)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.minecraft.client.font.TextRenderer.draw(TextRenderer.java:89)
+	at net.minecraft.client.gui.screen.ingame.HandledScreen.drawForeground(HandledScreen.java:208)
+	at net.minecraft.client.gui.screen.ingame.HandledScreen.render(HandledScreen.java:134)
+	at net.farrucho.avaritia.screen.ExtremeCraftingTableScreen.render(ExtremeCraftingTableScreen.java:43)
+
+-- Screen render details --
+Details:
+	Screen name: net.farrucho.avaritia.screen.ExtremeCraftingTableScreen
+	Mouse location: Scaled: (213, 120). Absolute: (427.000000, 240.000000)
+	Screen size: Scaled: (427, 240). Absolute: (854, 480). Scale factor of 2.000000
+Stacktrace:
+	at net.minecraft.client.render.GameRenderer.render(GameRenderer.java:881)
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1177)
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:768)
+	at net.minecraft.client.main.Main.main(Main.java:244)
+	at net.minecraft.client.main.Main.main(Main.java:51)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+
+-- Affected level --
+Details:
+	All players: 1 total; [ClientPlayerEntity['Player61'/201, l='ClientLevel', x=-35.12, y=83.00, z=135.07]]
+	Chunk stats: 121, 57
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (0,78,112), Section: (at 0,14,0 in 0,4,7; chunk contains blocks 0,-64,112 to 15,319,127), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Level time: 3624 game time, 3624 day time
+	Server brand: fabric
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.world.ClientWorld.addDetailsToCrashReport(ClientWorld.java:453)
+	at net.minecraft.client.MinecraftClient.addDetailsToCrashReport(MinecraftClient.java:2341)
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:787)
+	at net.minecraft.client.main.Main.main(Main.java:244)
+	at net.minecraft.client.main.Main.main(Main.java:51)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: Yes
+	Packs: Default, Fabric Mods
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.2
+	Minecraft Version ID: 1.19.2
+	Operating System: Linux (amd64) version 6.0.7-arch1-1
+	Java Version: 17.0.5, N/A
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 436975456 bytes (416 MiB) / 1949302784 bytes (1859 MiB) up to 2051014656 bytes (1956 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 4600H with Radeon Graphics
+	Identifier: AuthenticAMD Family 23 Model 96 Stepping 1
+	Microarchitecture: unknown
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: TU106M [GeForce RTX 2060 Mobile]
+	Graphics card #0 vendor: NVIDIA Corporation (0x10de)
+	Graphics card #0 VRAM (MB): 288.00
+	Graphics card #0 deviceId: 0x1f15
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 6908.37
+	Virtual memory used (MB): 9257.63
+	Swap memory total (MB): 3000.00
+	Swap memory used (MB): 1899.00
+	JVM Flags: 0 total; 
+	Fabric Mods: 
+		avaritia: Avaritia Fabric port Mod 0.0.1-1.19.X
+		fabric-api: Fabric API 0.66.0+1.19.2
+		fabric-api-base: Fabric API Base 0.4.12+93d8cb8290
+		fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.10+93d8cb8290
+		fabric-biome-api-v1: Fabric Biome API (v1) 9.0.18+c6af733c90
+		fabric-block-api-v1: Fabric Block API (v1) 1.0.0+12bfe4ea90
+		fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.21+c6af733c90
+		fabric-client-tags-api-v1: Fabric Client Tags 1.0.2+b35fea8390
+		fabric-command-api-v2: Fabric Command API (v2) 2.1.8+93d8cb8290
+		fabric-content-registries-v0: Fabric Content Registries (v0) 3.4.1+6064db2a90
+		fabric-convention-tags-v1: Fabric Convention Tags 1.1.2+93d8cb8290
+		fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.6+aeb40ebe90
+		fabric-data-generation-api-v1: Fabric Data Generation API (v1) 5.2.3+b598f4ac90
+		fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.32+0dd10df690
+		fabric-entity-events-v1: Fabric Entity Events (v1) 1.5.0+a1d87cb890
+		fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.4.29+c6af733c90
+		fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.22+c6af733c90
+		fabric-gametest-api-v1: Fabric Game Test API (v1) 1.1.2+704e47e990
+		fabric-item-api-v1: Fabric Item API (v1) 1.5.8+93d8cb8290
+		fabric-item-groups-v0: Fabric Item Groups (v0) 0.3.33+70efcffe90
+		fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.22+aaaf9d3390
+		fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.2.0+33ffe9ec90
+		fabric-loot-api-v2: Fabric Loot API (v2) 1.1.7+83a8659290
+		fabric-message-api-v1: Fabric Message API (v1) 5.0.4+93d8cb8290
+		fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.18+33fbc73890
+		fabric-models-v0: Fabric Models (v0) 0.3.18+c6af733c90
+		fabric-networking-api-v1: Fabric Networking API (v1) 1.2.5+c6af733c90
+		fabric-object-builder-api-v1: Fabric Object Builder API (v1) 4.1.0+06e0e25190
+		fabric-particles-v1: Fabric Particles (v1) 1.0.11+79adfe0a90
+		fabric-registry-sync-v0: Fabric Registry Sync (v0) 0.9.26+c6af733c90
+		fabric-renderer-api-v1: Fabric Renderer API (v1) 1.0.13+12bfe4ea90
+		fabric-renderer-indigo: Fabric Renderer - Indigo 0.6.15+aeb40ebe90
+		fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.16+12bfe4ea90
+		fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.0.8+c6af733c90
+		fabric-rendering-v1: Fabric Rendering (v1) 1.11.0+73145abb90
+		fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.1.0+aae9039d90
+		fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.7.3+3e1ba48e90
+		fabric-screen-api-v1: Fabric Screen API (v1) 1.0.27+93d8cb8290
+		fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.1+1cc24b1b90
+		fabric-sound-api-v1: Fabric Sound API (v1) 1.0.0+c4f28df590
+		fabric-textures-v0: Fabric Textures (v0) 1.0.21+aeb40ebe90
+		fabric-transfer-api-v1: Fabric Transfer API (v1) 2.1.1+93d8cb8290
+		fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 1.3.1+42d99c3290
+		fabricloader: Fabric Loader 0.14.10
+		java: OpenJDK 64-Bit Server VM 17
+		minecraft: Minecraft 1.19.2
+	Launched Version: Fabric
+	Backend library: LWJGL version 3.3.1 SNAPSHOT
+	Backend API: NVIDIA GeForce RTX 2060/PCIe/SSE2 GL version 3.2.0 NVIDIA 520.56.06, NVIDIA Corporation
+	Window size: 854x480
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fabric'; Server brand changed to 'fabric'
+	Type: Integrated Server (map_client.txt)
+	Graphics mode: fast
+	Resource Packs: Fabric Mods
+	Current Language: English (US)
+	CPU: 12x AMD Ryzen 5 4600H with Radeon Graphics
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayerEntity['Player61'/201, l='ServerLevel[New World]', x=-35.12, y=83.00, z=135.07]]
+	Data Packs: vanilla, Fabric Mods
+	World Generation: Stable

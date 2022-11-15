@@ -32,7 +32,8 @@ public class NeutronCollectorBlockEntity extends BlockEntity implements NamedScr
 
     protected final PropertyDelegate propertyDelegate;
     private int progress = 0;
-    private int maxProgress = 500;//7111 METER ESTE VALOR
+    //private int maxProgress = 500;//7111 METER ESTE VALOR
+    private int maxProgress = 7111;
 
 
     public NeutronCollectorBlockEntity(BlockPos pos, BlockState state) {
@@ -69,7 +70,9 @@ public class NeutronCollectorBlockEntity extends BlockEntity implements NamedScr
     @Override
     public Text getDisplayName() {
         return Text.translatable(getCachedState().getBlock().getTranslationKey());
+        //return new TranslatableText(getCachedState().getBlock().getTranslationKey());
     }
+    // For versions 1.18.2 and below, please use return new TranslatableText(getCachedState().getBlock().getTranslationKey());
 
     @Nullable
     @Override
@@ -108,6 +111,7 @@ public class NeutronCollectorBlockEntity extends BlockEntity implements NamedScr
             entity.resetProgress();
             //markDirty(world, pos, state);
         }
+
 
         //trabalhar na funcao percentagem para gerar o nuggetzitos
         /*++tickCounter;
