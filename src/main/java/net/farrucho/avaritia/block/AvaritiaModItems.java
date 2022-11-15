@@ -31,7 +31,7 @@ public class AvaritiaModItems {
 
     public static final Item ULTIMATE_STEW = registerItem("ultimate_stew", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(20).saturationModifier(2f).statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 6000, 2), 1.0f).build()).group(Avaritia.AVARITIA_GROUP)));
 
-    public static final Item COSMIC_MEATBALLS = registerItem("cosmic_meatballs", new Item(new FabricItemSettings().group(Avaritia.AVARITIA_GROUP)));
+    public static final Item COSMIC_MEATBALLS = registerItem("cosmic_meatballs", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(20).saturationModifier(2f).statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 6000, 2), 1.0f).build()).group(Avaritia.AVARITIA_GROUP)));
 
     public static final Item ENDEST_PEARL = registerItem("endest_pearl", new Item(new FabricItemSettings().group(Avaritia.AVARITIA_GROUP)));
 

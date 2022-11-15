@@ -4,7 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdfaf821-2a86-4233-9cff-3c6fadd80c68" name="Changes" comment="-Corrigido loot table e drops&#10;-Gui extreme crafting table updated">
+    <list default="true" id="cdfaf821-2a86-4233-9cff-3c6fadd80c68" name="Changes" comment="- bugs corrigidos">
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/1.18.2/net.fabricmc.yarn.1_18_2.1.18.2+build.4-v2/minecraft-project-@-merged-named-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/1.18.2/net.fabricmc.yarn.1_18_2.1.18.2+build.4-v2/minecraft-project-@-merged-named-sources.lmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/devlibs/avaritia-0.0.2-1.18.X-dev.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/devlibs/avaritia-0.0.2-1.18.X-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/devlibs/avaritia-0.0.2-1.19.X-dev.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/devlibs/avaritia-0.0.2-1.19.X-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/avaritia-0.0.2-1.18.X-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/avaritia-0.0.2-1.18.X.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/avaritia-0.0.2-1.19.X-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/avaritia-0.0.2-1.19.X.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/5daba5f8-966b-3165-8089-02aaa9b1e740.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-1.-2.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/5daba5f8-966b-3165-8089-02aaa9b1e740.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/5daba5f8-966b-3165-8089-02aaa9b1e740.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.-1.-2.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.-2.-2.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.-2.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-2.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-2.-2.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/5daba5f8-966b-3165-8089-02aaa9b1e740.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/advancements/469ed5b0-d521-3c7e-a5b2-0fa0ad8523cf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/playerdata/469ed5b0-d521-3c7e-a5b2-0fa0ad8523cf.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/playerdata/469ed5b0-d521-3c7e-a5b2-0fa0ad8523cf.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/stats/469ed5b0-d521-3c7e-a5b2-0fa0ad8523cf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/screenshots/2022-11-15_18.43.38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/screenshots/2022-11-15_18.49.23.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
@@ -12,12 +38,31 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/1.18.2/net.fabricmc.yarn.1_18_2.1.18.2+build.4-v2/minecraft-project-@-merged-named.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/1.18.2/net.fabricmc.yarn.1_18_2.1.18.2+build.4-v2/minecraft-project-@-merged-named.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/farrucho/avaritia/block/AvaritiaModBlocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/farrucho/avaritia/block/AvaritiaModBlocks.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/farrucho/avaritia/block/AvaritiaModItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/farrucho/avaritia/block/AvaritiaModItems.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/avaritia/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/avaritia/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/avaritia/textures/item/ultimate_stew.png.mcmeta" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/avaritia/textures/item/ultimate_stew.png.mcmeta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/farrucho/avaritia/block/entity/ExtremeCraftingTableBlockEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/farrucho/avaritia/block/entity/ExtremeCraftingTableBlockEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/devlibs/avaritia-0.0.1-1.19.X-dev.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/devlibs/avaritia-0.0.1-1.19.X-dev.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/devlibs/avaritia-0.0.1-1.19.X-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/devlibs/avaritia-0.0.1-1.19.X-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/avaritia-0.0.1-1.18.X-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/avaritia-0.0.1-1.18.X.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/avaritia-0.0.1-1.19.X-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/avaritia-0.0.1-1.19.X.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/avaritia/textures/item/cosmic_meatballs.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/avaritia/textures/item/cosmic_meatballs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/avaritia/textures/item/gold_singularity.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/avaritia/textures/item/gold_singularity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/avaritia/textures/item/iron_singularity.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/avaritia/textures/item/iron_singularity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/avaritia/textures/item/lapis_singularity.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/avaritia/textures/item/lapis_singularity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/avaritia/textures/item/quartz_singularity.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/avaritia/textures/item/quartz_singularity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/avaritia/textures/item/redstone_singularity.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/avaritia/textures/item/redstone_singularity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/avaritia/recipes/items/crystal_matrix_ingot.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/avaritia/recipes/items/crystal_matrix_ingot.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/mineable/pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/mineable/pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/needs_diamond_tool.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/needs_diamond_tool.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/fabric.mod.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2022-11-15-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-11-15-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2022-11-15-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-11-15-2.log.gz" afterDir="false" />
@@ -33,31 +78,54 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/DIM-1/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/DIM1/data/raids_end.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/advancements/738c48db-b050-3c6f-9053-5a4abfe0d0a6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/advancements/8a5928f7-beb7-37f5-80fc-dd4e68365b90.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/advancements/9bd3b5b5-2b26-3f14-8236-0cdd38b7c3b1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/738c48db-b050-3c6f-9053-5a4abfe0d0a6.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/8a5928f7-beb7-37f5-80fc-dd4e68365b90.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/9bd3b5b5-2b26-3f14-8236-0cdd38b7c3b1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/stats/738c48db-b050-3c6f-9053-5a4abfe0d0a6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/stats/8a5928f7-beb7-37f5-80fc-dd4e68365b90.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/stats/9bd3b5b5-2b26-3f14-8236-0cdd38b7c3b1.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/DIM-1/data/raids.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/advancements/c7d67933-d428-31bd-9c63-95c492679fdc.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/advancements/c7d67933-d428-31bd-9c63-95c492679fdc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/data/raids.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/entities/r.-1.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/entities/r.0.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/level.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/playerdata/c7d67933-d428-31bd-9c63-95c492679fdc.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/playerdata/c7d67933-d428-31bd-9c63-95c492679fdc.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/poi/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/poi/r.-1.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/poi/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/poi/r.0.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/region/r.-1.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/region/r.-1.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/region/r.0.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/stats/c7d67933-d428-31bd-9c63-95c492679fdc.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/stats/c7d67933-d428-31bd-9c63-95c492679fdc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/farrucho/avaritia/block/AvaritiaModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/farrucho/avaritia/block/AvaritiaModBlocks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/farrucho/avaritia/block/AvaritiaModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/farrucho/avaritia/block/AvaritiaModItems.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/farrucho/avaritia/block/entity/ExtremeCraftingTableBlockEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/farrucho/avaritia/block/entity/ExtremeCraftingTableBlockEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/avaritia/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/avaritia/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/avaritia/textures/item/cosmic_meatballs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/avaritia/textures/item/ultimate_stew.png.mcmeta" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/avaritia/textures/item/ultimate_stew.png.mcmeta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/pickaxe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/needs_diamond_tool.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/needs_diamond_tool.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/avaritia/textures/item/gold_singularity.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/avaritia/textures/item/gold_singularity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/avaritia/textures/item/iron_singularity.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/avaritia/textures/item/iron_singularity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/avaritia/textures/item/lapis_singularity.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/avaritia/textures/item/lapis_singularity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/avaritia/textures/item/quartz_singularity.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/avaritia/textures/item/quartz_singularity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/avaritia/textures/item/redstone_singularity.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/avaritia/textures/item/redstone_singularity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/avaritia/recipes/items/crystal_matrix_ingot.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/avaritia/recipes/items/crystal_matrix_ingot.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,14 +183,14 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/farrucho/coding projects/minecraft/AvaritiaFabric/src/main/resources/assets/avaritia/models/item"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/farrucho/coding projects/minecraft/AvaritiaFabric/src/main/resources/assets/avaritia/models/item&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/assets/avaritia/models/item" />
@@ -231,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668518323119</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="-adicionado infinityblock,catalyst, infinityingot">
+      <created>1668529895272</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668529895272</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,6 +326,8 @@
     <MESSAGE value="Extreme crafting table implementada&#10;Neutronium nugget/ingot adicionados" />
     <MESSAGE value="Neutronium compressor quase feito falta render" />
     <MESSAGE value="-Corrigido loot table e drops&#10;-Gui extreme crafting table updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Corrigido loot table e drops&#10;-Gui extreme crafting table updated" />
+    <MESSAGE value="-adicionado infinityblock,catalyst, infinityingot" />
+    <MESSAGE value="- bugs corrigidos" />
+    <option name="LAST_COMMIT_MESSAGE" value="- bugs corrigidos" />
   </component>
 </project>

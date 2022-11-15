@@ -15,7 +15,7 @@
 		},
 		"D": {
 			"type": "minecraft:item",
-			"item": "minecraft:diamond"
+			"item": "avaritia:diamond_lattice"
 		}
 	}
 }

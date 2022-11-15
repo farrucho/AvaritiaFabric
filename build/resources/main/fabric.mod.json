@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "avaritia",
-  "version": "0.0.1-1.19.X",
+  "version": "0.0.2-1.18.X",
 
   "name": "Avaritia Fabric port Mod",
   "description": "This may or may not be an unofficial port of Avaritia for fabric",

@@ -437,7 +437,7 @@ public class ExtremeCraftingTableBlockEntity extends BlockEntity implements Name
                 entity.inventory.get(41).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
                 entity.inventory.get(42).getItem() == Items.ENDER_PEARL &&
                 entity.inventory.get(43).getItem() == Items.ENDER_PEARL &&
-                entity.inventory.get(44).getItem() == Items.REDSTONE_BLOCK &&
+                entity.inventory.get(44).getItem() == Items.END_STONE &&
 
                 entity.inventory.get(45).getItem() == Items.END_STONE &&
                 entity.inventory.get(46).getItem() == Items.ENDER_PEARL &&
@@ -482,7 +482,7 @@ public class ExtremeCraftingTableBlockEntity extends BlockEntity implements Name
 
     private static boolean hasInfinityCatalyst(ExtremeCraftingTableBlockEntity entity){
         int c;
-        for(c=15; c < 81; c++){
+        for(c=16; c < 81; c++){
             if(entity.inventory.get(c).getItem() != Items.AIR){
                 return false;
             }
