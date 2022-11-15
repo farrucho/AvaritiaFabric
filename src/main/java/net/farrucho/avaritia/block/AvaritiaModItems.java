@@ -37,11 +37,16 @@ public class AvaritiaModItems {
 
     public static final Item RECORD_FRAGMENT = registerItem("record_fragment", new Item(new FabricItemSettings().group(Avaritia.AVARITIA_GROUP)));
 
+    public static final Item INFINITY_CATALYST = registerItem("infinity_catalyst", new Item(new FabricItemSettings().group(Avaritia.AVARITIA_GROUP)));
+
+    public static final Item INFINITY_INGOT = registerItem("infinity_ingot", new Item(new FabricItemSettings().group(Avaritia.AVARITIA_GROUP)));
 
 
 
 
 
+
+    //animacao mcmeta dos itens, têm uma virgula a mais no final, por isso é que dao erro!!!
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(Avaritia.MOD_ID, name), item);

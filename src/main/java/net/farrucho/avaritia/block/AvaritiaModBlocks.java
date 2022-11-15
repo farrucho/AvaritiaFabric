@@ -27,6 +27,8 @@ public class AvaritiaModBlocks {
 
     public static final Block NEUTRONIUM_BLOCK = registerBlock("neutronium_block", new Block(FabricBlockSettings.of(Material.STONE).hardness(10).requiresTool()),Avaritia.AVARITIA_GROUP);
 
+    public static final Block INFINITY_BLOCK = registerBlock("infinity_block", new Block(FabricBlockSettings.of(Material.STONE).hardness(20).requiresTool()),Avaritia.AVARITIA_GROUP);
+
 
 
 

@@ -18,6 +18,9 @@
   "item.avaritia.cosmic_meatballs": "Cosmic Meatballs",
   "item.avaritia.endest_pearl": "Endest Pearl",
   "item.avaritia.record_fragment": "Record Fragment",
+  "item.avaritia.infinity_catalyst": "Infinity Catalyst",
+  "item.avaritia.infinity_ingot": "Infinity Ingot",
+
 
 
   "block.avaritia.neutron_collector": "Neutron Collector",
@@ -25,6 +28,7 @@
   "block.avaritia.compressed_crafting_table": "Compressed Crafting Table",
   "block.avaritia.double_compressed_crafting_table": "Double Compressed Crafting Table",
   "block.avaritia.neutronium_block": "Neutronium Block",
+  "block.avaritia.infinity_block": "Infinity Block",
   "block.avaritia.neutronium_compressor": "Neutronium Compressor"
 
 }

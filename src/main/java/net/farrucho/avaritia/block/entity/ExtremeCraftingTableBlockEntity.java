@@ -366,6 +366,28 @@ public class ExtremeCraftingTableBlockEntity extends BlockEntity implements Name
                 entity.inventory.get(14).getItem() == Items.NETHER_WART);
     }
 
+    private static boolean hasCosmicMeatballs(ExtremeCraftingTableBlockEntity entity){
+        int c;
+        for(c=11; c < 81; c++){
+            if(entity.inventory.get(c).getItem() != Items.AIR){
+                return false;
+            }
+        }
+
+        return (entity.inventory.get(0).getItem() == AvaritiaModItems.NEUTRON_PILE &&
+                entity.inventory.get(1).getItem() == Items.BEEF &&
+                entity.inventory.get(2).getItem() == Items.BEEF &&
+                entity.inventory.get(3).getItem() == Items.CHICKEN &&
+                entity.inventory.get(4).getItem() == Items.CHICKEN &&
+                entity.inventory.get(5).getItem() == Items.PORKCHOP &&
+                entity.inventory.get(6).getItem() == Items.PORKCHOP &&
+                entity.inventory.get(7).getItem() == Items.RABBIT &&
+                entity.inventory.get(8).getItem() == Items.RABBIT &&
+                entity.inventory.get(9).getItem() == Items.COD &&
+                entity.inventory.get(10).getItem() == Items.COD);
+    }
+
+
     private static boolean hasEndestPearl(ExtremeCraftingTableBlockEntity entity){
         return (entity.inventory.get(0).getItem() == Items.AIR &&
                 entity.inventory.get(1).getItem() == Items.AIR &&
@@ -458,6 +480,95 @@ public class ExtremeCraftingTableBlockEntity extends BlockEntity implements Name
                 entity.inventory.get(80).getItem() == Items.AIR);
     }
 
+    private static boolean hasInfinityCatalyst(ExtremeCraftingTableBlockEntity entity){
+        int c;
+        for(c=15; c < 81; c++){
+            if(entity.inventory.get(c).getItem() != Items.AIR){
+                return false;
+            }
+        }
+
+        return (entity.inventory.get(0).getItem() == AvaritiaModItems.DIAMOND_LATTICE &&
+                entity.inventory.get(1).getItem() == AvaritiaModItems.CRYSTAL_MATRIX_INGOT &&
+                entity.inventory.get(2).getItem() == AvaritiaModItems.NEUTRON_PILE &&
+                entity.inventory.get(3).getItem() == AvaritiaModItems.NEUTRONIUM_NUGGET &&
+                entity.inventory.get(4).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(5).getItem() == AvaritiaModItems.ULTIMATE_STEW &&
+                entity.inventory.get(6).getItem() == AvaritiaModItems.COSMIC_MEATBALLS &&
+                entity.inventory.get(7).getItem() == AvaritiaModItems.ENDEST_PEARL &&
+                entity.inventory.get(8).getItem() == AvaritiaModItems.RECORD_FRAGMENT &&
+
+                entity.inventory.get(9).getItem() == AvaritiaModItems.IRON_SINGULARITY &&
+                entity.inventory.get(10).getItem() == AvaritiaModItems.GOLD_SINGULARITY &&
+                entity.inventory.get(11).getItem() == AvaritiaModItems.LAPIS_SINGULARITY &&
+                entity.inventory.get(12).getItem() == AvaritiaModItems.REDSTONE_SINGULARITY &&
+                entity.inventory.get(13).getItem() == AvaritiaModItems.QUARTZ_SINGULARITY &&
+                entity.inventory.get(14).getItem() == AvaritiaModItems.DIAMOND_SINGULARITY &&
+                entity.inventory.get(15).getItem() == AvaritiaModItems.EMERALD_SINGULARITY);
+    }
+
+    private static boolean hasInfinityIngot(ExtremeCraftingTableBlockEntity entity){
+        int c;
+        for(c=45; c < 81; c++){
+            if(entity.inventory.get(c).getItem() != Items.AIR){
+                return false;
+            }
+        }
+
+        return (entity.inventory.get(0).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(1).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(2).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(3).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(4).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(5).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(6).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(7).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(8).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+
+                entity.inventory.get(9).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(10).getItem() == AvaritiaModItems.CRYSTAL_MATRIX_INGOT &&
+                entity.inventory.get(11).getItem() == AvaritiaModItems.INFINITY_CATALYST &&
+                entity.inventory.get(12).getItem() == AvaritiaModItems.INFINITY_CATALYST &&
+                entity.inventory.get(13).getItem() == AvaritiaModItems.CRYSTAL_MATRIX_INGOT &&
+                entity.inventory.get(14).getItem() == AvaritiaModItems.INFINITY_CATALYST &&
+                entity.inventory.get(15).getItem() == AvaritiaModItems.INFINITY_CATALYST &&
+                entity.inventory.get(16).getItem() == AvaritiaModItems.CRYSTAL_MATRIX_INGOT &&
+                entity.inventory.get(17).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+
+                entity.inventory.get(18).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(19).getItem() == AvaritiaModItems.INFINITY_CATALYST &&
+                entity.inventory.get(20).getItem() == AvaritiaModItems.CRYSTAL_MATRIX_INGOT &&
+                entity.inventory.get(21).getItem() == AvaritiaModItems.CRYSTAL_MATRIX_INGOT &&
+                entity.inventory.get(22).getItem() == AvaritiaModItems.INFINITY_CATALYST &&
+                entity.inventory.get(23).getItem() == AvaritiaModItems.CRYSTAL_MATRIX_INGOT &&
+                entity.inventory.get(24).getItem() == AvaritiaModItems.CRYSTAL_MATRIX_INGOT &&
+                entity.inventory.get(25).getItem() == AvaritiaModItems.INFINITY_CATALYST &&
+                entity.inventory.get(26).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+
+                entity.inventory.get(27).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(28).getItem() == AvaritiaModItems.CRYSTAL_MATRIX_INGOT &&
+                entity.inventory.get(29).getItem() == AvaritiaModItems.INFINITY_CATALYST &&
+                entity.inventory.get(30).getItem() == AvaritiaModItems.INFINITY_CATALYST &&
+                entity.inventory.get(31).getItem() == AvaritiaModItems.CRYSTAL_MATRIX_INGOT &&
+                entity.inventory.get(32).getItem() == AvaritiaModItems.INFINITY_CATALYST &&
+                entity.inventory.get(33).getItem() == AvaritiaModItems.INFINITY_CATALYST &&
+                entity.inventory.get(34).getItem() == AvaritiaModItems.CRYSTAL_MATRIX_INGOT &&
+                entity.inventory.get(35).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+
+                entity.inventory.get(36).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(37).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(38).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(39).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(40).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(41).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(42).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(43).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(44).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT);
+    }
+
+
+
+
 
 
     private static void craftItem(ExtremeCraftingTableBlockEntity entity, ItemStack itemStack){//se ja ouver 64 o jogo crasha provavel
@@ -475,6 +586,12 @@ public class ExtremeCraftingTableBlockEntity extends BlockEntity implements Name
             craftItem(entity, new ItemStack(AvaritiaModItems.ULTIMATE_STEW, 1));
         }else if(hasEndestPearl(entity)){
             craftItem(entity, new ItemStack(AvaritiaModItems.ENDEST_PEARL, 1));
+        }else if(hasCosmicMeatballs(entity)){
+            craftItem(entity, new ItemStack(AvaritiaModItems.COSMIC_MEATBALLS, 1));
+        }else if(hasInfinityCatalyst(entity)){
+            craftItem(entity, new ItemStack(AvaritiaModItems.INFINITY_CATALYST, 1));
+        }else if(hasInfinityIngot(entity)){
+            craftItem(entity, new ItemStack(AvaritiaModItems.INFINITY_INGOT, 1));
         }
 
 
