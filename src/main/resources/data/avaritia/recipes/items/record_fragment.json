@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"#": {
+			"tag": "minecraft:music_discs"
+		}
+	},
+	"pattern": [
+		"#"
+	],
+	"result": {
+		"count": 8,
+		"item": "avaritia:record_fragment"
+	}
+}

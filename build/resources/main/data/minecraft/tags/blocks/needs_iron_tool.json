@@ -1,6 +1,10 @@
 {
-  "replace": false,
   "values": [
-
+    "avaritia:compressed_crafting_table",
+    "avaritia:double_compressed_crafting_table",
+    "avaritia:extreme_crafting_table",
+    "avaritia:neutron_collector",
+    "avaritia:neutronium_block",
+    "avaritia:neutronium_compressor"
   ]
 }

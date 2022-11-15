@@ -35,6 +35,9 @@ public class AvaritiaModItems {
 
     public static final Item ENDEST_PEARL = registerItem("endest_pearl", new Item(new FabricItemSettings().group(Avaritia.AVARITIA_GROUP)));
 
+    public static final Item RECORD_FRAGMENT = registerItem("record_fragment", new Item(new FabricItemSettings().group(Avaritia.AVARITIA_GROUP)));
+
+
 
 
 
