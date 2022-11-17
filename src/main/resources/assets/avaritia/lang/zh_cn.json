@@ -1,0 +1,34 @@
+{
+    "itemGroup.avaritia.avaritia_group": "无尽贪婪",
+  
+    "item.avaritia.skullfire_sword": "炽焰之啄颅剑",
+    "item.avaritia.neutron_pile": "中子素尘埃",
+    "item.avaritia.neutronium_nugget": "中子素颗粒",
+    "item.avaritia.crystal_matrix_ingot": "水晶矩阵锭",
+    "item.avaritia.diamond_lattice": "钻石晶格",
+    "item.avaritia.neutronium_ingot": "中子锭",
+    "item.avaritia.iron_singularity": "奇点-铁",
+    "item.avaritia.gold_singularity": "奇点-金",
+    "item.avaritia.diamond_singularity": "奇点-钻石",
+    "item.avaritia.quartz_singularity": "奇点-下界石英",
+    "item.avaritia.redstone_singularity": "奇点-红石",
+    "item.avaritia.emerald_singularity": "奇点-绿宝石",
+    "item.avaritia.lapis_singularity": "奇点-青金石",
+    "item.avaritia.ultimate_stew": "超级煲",
+    "item.avaritia.cosmic_meatballs": "寰宇肉丸",
+    "item.avaritia.endest_pearl": "终望珍珠",
+    "item.avaritia.record_fragment": "唱片碎片",
+    "item.avaritia.infinity_catalyst": "无尽催化剂",
+    "item.avaritia.infinity_ingot": "无尽之锭",
+  
+  
+  
+    "block.avaritia.neutron_collector": "中子态素收集器",
+    "block.avaritia.extreme_crafting_table": "终极工作台",
+    "block.avaritia.compressed_crafting_table": "压缩工作台",
+    "block.avaritia.double_compressed_crafting_table": "二重压缩工作台",
+    "block.avaritia.neutronium_block": "中子态素块",
+    "block.avaritia.infinity_block": "无尽之块",
+    "block.avaritia.neutronium_compressor": "中子态素压缩机"
+  
+  }
