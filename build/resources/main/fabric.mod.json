@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "id": "avaritia",
-  "version": "0.0.2-1.18.X",
+  "version": "0.0.3-1.19.X",
 
-  "name": "Avaritia Fabric port Mod",
-  "description": "This may or may not be an unofficial port of Avaritia for fabric",
+  "name": "Greedy Grinding Mod - Avaritia",
+  "description": "This is an inspired mod for fabric of Avaritia ",
   "authors": [
     "farrucho"
   ],

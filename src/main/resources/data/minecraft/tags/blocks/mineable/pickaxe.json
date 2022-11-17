@@ -7,6 +7,7 @@
     "avaritia:neutron_collector",
     "avaritia:neutronium_block",
     "avaritia:neutronium_compressor",
-    "avaritia:infinity_block"
+    "avaritia:infinity_block",
+    "avaritia:crystal_matrix_block"
   ]
 }

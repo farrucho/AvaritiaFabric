@@ -1,0 +1,10 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:birch_forest": "2022-11-16 19:42:07 +0000",
+      "minecraft:windswept_forest": "2022-11-16 19:42:38 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

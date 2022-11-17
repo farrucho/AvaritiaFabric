@@ -1,21 +1,13 @@
 package net.farrucho.avaritia.block.entity;
 
-import net.farrucho.avaritia.Avaritia;
-import net.farrucho.avaritia.block.AvaritiaModBlocks;
-import net.farrucho.avaritia.block.AvaritiaModItems;
-import net.farrucho.avaritia.screen.NeutronCollectorScreen;
+import net.farrucho.avaritia.item.AvaritiaModItems;
 import net.farrucho.avaritia.screen.NeutronCollectorScreenHandler;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
-import net.minecraft.client.font.TextRenderer;
-import net.minecraft.client.gui.DrawableHelper;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.inventory.Inventories;
-import net.minecraft.inventory.Inventory;
-import net.minecraft.inventory.SimpleInventory;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.screen.NamedScreenHandlerFactory;
 import net.minecraft.screen.PropertyDelegate;

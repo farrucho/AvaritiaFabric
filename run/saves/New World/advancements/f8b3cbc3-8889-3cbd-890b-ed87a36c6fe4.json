@@ -1,0 +1,22 @@
+{
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2022-11-16 23:49:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:birch_forest": "2022-11-16 23:48:19 +0000",
+      "minecraft:windswept_forest": "2022-11-16 23:49:00 +0000"
+    },
+    "done": false
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2022-11-16 23:48:18 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}

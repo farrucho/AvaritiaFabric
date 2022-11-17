@@ -21,6 +21,11 @@
   "item.avaritia.infinity_catalyst": "Infinity Catalyst",
   "item.avaritia.infinity_ingot": "Infinity Ingot",
 
+  "item.avaritia.infinity_helmet": "Infinity Helmet",
+  "item.avaritia.infinity_chestplate": "Infinity Chestplate",
+  "item.avaritia.infinity_leggings": "Infinity Leggings",
+  "item.avaritia.infinity_boots": "Infinity Boots",
+
 
 
   "block.avaritia.neutron_collector": "Neutron Collector",
@@ -29,6 +34,6 @@
   "block.avaritia.double_compressed_crafting_table": "Double Compressed Crafting Table",
   "block.avaritia.neutronium_block": "Neutronium Block",
   "block.avaritia.infinity_block": "Infinity Block",
-  "block.avaritia.neutronium_compressor": "Neutronium Compressor"
-
+  "block.avaritia.neutronium_compressor": "Neutronium Compressor",
+  "block.avaritia.crystal_matrix_block": "Crystal Matrix Block"
 }

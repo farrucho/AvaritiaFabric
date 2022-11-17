@@ -1,0 +1,17 @@
+{
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2022-11-17 15:10:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:sparse_jungle": "2022-11-17 15:10:38 +0000",
+      "minecraft:forest": "2022-11-17 15:12:01 +0000",
+      "minecraft:plains": "2022-11-17 15:12:03 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

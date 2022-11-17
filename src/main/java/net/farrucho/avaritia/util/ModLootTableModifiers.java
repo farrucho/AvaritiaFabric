@@ -1,7 +1,7 @@
 package net.farrucho.avaritia.util;
 
 import net.fabricmc.fabric.api.loot.v2.LootTableEvents;
-import net.farrucho.avaritia.block.AvaritiaModItems;
+import net.farrucho.avaritia.item.AvaritiaModItems;
 import net.minecraft.item.Items;
 import net.minecraft.loot.LootPool;
 import net.minecraft.loot.condition.*;

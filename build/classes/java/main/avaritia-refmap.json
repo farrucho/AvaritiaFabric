@@ -1,13 +1,13 @@
 {
   "mappings": {
     "net/farrucho/avaritia/mixin/ExampleMixin": {
-      "init()V": "Lnet/minecraft/class_442;method_25426()V"
+      "damage": "Lnet/minecraft/class_1657;method_5643(Lnet/minecraft/class_1282;F)Z"
     }
   },
   "data": {
     "named:intermediary": {
       "net/farrucho/avaritia/mixin/ExampleMixin": {
-        "init()V": "Lnet/minecraft/class_442;method_25426()V"
+        "damage": "Lnet/minecraft/class_1657;method_5643(Lnet/minecraft/class_1282;F)Z"
       }
     }
   }

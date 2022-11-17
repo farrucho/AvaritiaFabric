@@ -1,7 +1,7 @@
 package net.farrucho.avaritia.block.entity;
 
 import net.farrucho.avaritia.block.AvaritiaModBlocks;
-import net.farrucho.avaritia.block.AvaritiaModItems;
+import net.farrucho.avaritia.item.AvaritiaModItems;
 import net.farrucho.avaritia.screen.ExtremeCraftingTableScreenHandler;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
@@ -566,7 +566,331 @@ public class ExtremeCraftingTableBlockEntity extends BlockEntity implements Name
                 entity.inventory.get(44).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT);
     }
 
+    private static boolean hasInfinityHelmet(ExtremeCraftingTableBlockEntity entity){
+        int c;
+        for(c=54; c < 81; c++){
+            if(entity.inventory.get(c).getItem() != Items.AIR){
+                return false;
+            }
+        }
 
+        return (entity.inventory.get(0).getItem() == Items.AIR &&
+                entity.inventory.get(1).getItem() == Items.AIR &&
+                entity.inventory.get(2).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(3).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(4).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(5).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(6).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(7).getItem() == Items.AIR &&
+                entity.inventory.get(8).getItem() == Items.AIR &&
+
+                entity.inventory.get(9).getItem() == Items.AIR &&
+                entity.inventory.get(10).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(11).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(12).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(13).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(14).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(15).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(16).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(17).getItem() == Items.AIR &&
+
+                entity.inventory.get(18).getItem() == Items.AIR &&
+                entity.inventory.get(19).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(20).getItem() == Items.AIR &&
+                entity.inventory.get(21).getItem() == AvaritiaModItems.INFINITY_CATALYST &&
+                entity.inventory.get(22).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(23).getItem() == AvaritiaModItems.INFINITY_CATALYST &&
+                entity.inventory.get(24).getItem() == Items.AIR &&
+                entity.inventory.get(25).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(26).getItem() == Items.AIR &&
+
+                entity.inventory.get(27).getItem() == Items.AIR &&
+                entity.inventory.get(28).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(29).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(30).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(31).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(32).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(33).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(34).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(35).getItem() == Items.AIR &&
+
+                entity.inventory.get(36).getItem() == Items.AIR &&
+                entity.inventory.get(37).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(38).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(39).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(40).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(41).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(42).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(43).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(44).getItem() == Items.AIR &&
+
+                entity.inventory.get(45).getItem() == Items.AIR &&
+                entity.inventory.get(46).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(47).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(48).getItem() == Items.AIR &&
+                entity.inventory.get(49).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(50).getItem() == Items.AIR &&
+                entity.inventory.get(51).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(52).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(53).getItem() == Items.AIR);
+    }
+
+    private static boolean hasInfinityBoots(ExtremeCraftingTableBlockEntity entity){
+        int c;
+        for(c=54; c < 81; c++){
+            if(entity.inventory.get(c).getItem() != Items.AIR){
+                return false;
+            }
+        }
+
+        return (entity.inventory.get(0).getItem() == Items.AIR &&
+                entity.inventory.get(1).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(2).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(3).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(4).getItem() == Items.AIR &&
+                entity.inventory.get(5).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(6).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(7).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(8).getItem() == Items.AIR &&
+
+                entity.inventory.get(9).getItem() == Items.AIR &&
+                entity.inventory.get(10).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(11).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(12).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(13).getItem() == Items.AIR &&
+                entity.inventory.get(14).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(15).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(16).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(17).getItem() == Items.AIR &&
+
+                entity.inventory.get(18).getItem() == Items.AIR &&
+                entity.inventory.get(19).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(20).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(21).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(22).getItem() == Items.AIR &&
+                entity.inventory.get(23).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(24).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(25).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(26).getItem() == Items.AIR &&
+
+                entity.inventory.get(27).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(28).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(29).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(30).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(31).getItem() == Items.AIR &&
+                entity.inventory.get(32).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(33).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(34).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(35).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+
+                entity.inventory.get(36).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(37).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(38).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(39).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(40).getItem() == Items.AIR &&
+                entity.inventory.get(41).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(42).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(43).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(44).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+
+                entity.inventory.get(45).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(46).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(47).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(48).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(49).getItem() == Items.AIR &&
+                entity.inventory.get(50).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(51).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(52).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(53).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT);
+    }
+
+    private static boolean hasInfinityChestplate(ExtremeCraftingTableBlockEntity entity){
+
+        return(entity.inventory.get(0).getItem() == Items.AIR &&
+                entity.inventory.get(1).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(2).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(3).getItem() == Items.AIR &&
+                entity.inventory.get(4).getItem() == Items.AIR &&
+                entity.inventory.get(5).getItem() == Items.AIR &&
+                entity.inventory.get(6).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(7).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(8).getItem() == Items.AIR &&
+
+                entity.inventory.get(9).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(10).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(11).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(12).getItem() == Items.AIR &&
+                entity.inventory.get(13).getItem() == Items.AIR &&
+                entity.inventory.get(14).getItem() == Items.AIR &&
+                entity.inventory.get(15).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(16).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(17).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+
+                entity.inventory.get(18).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(19).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(20).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(21).getItem() == Items.AIR &&
+                entity.inventory.get(22).getItem() == Items.AIR &&
+                entity.inventory.get(23).getItem() == Items.AIR &&
+                entity.inventory.get(24).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(25).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(26).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+
+                entity.inventory.get(27).getItem() == Items.AIR &&
+                entity.inventory.get(28).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(29).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(30).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(31).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(32).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(33).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(34).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(35).getItem() == Items.AIR &&
+
+                entity.inventory.get(36).getItem() == Items.AIR &&
+                entity.inventory.get(37).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(38).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(39).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(40).getItem() == AvaritiaModBlocks.CRYSTAL_MATRIX_BLOCK.asItem() &&
+                entity.inventory.get(41).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(42).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(43).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(44).getItem() == Items.AIR &&
+
+                entity.inventory.get(45).getItem() == Items.AIR &&
+                entity.inventory.get(46).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(47).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(48).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(49).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(50).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(51).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(52).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(53).getItem() == Items.AIR &&
+
+                entity.inventory.get(54).getItem() == Items.AIR &&
+                entity.inventory.get(55).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(56).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(57).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(58).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(59).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(60).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(61).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(62).getItem() == Items.AIR &&
+
+
+                entity.inventory.get(63).getItem() == Items.AIR &&
+                entity.inventory.get(64).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(65).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(66).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(67).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(68).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(69).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(70).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(71).getItem() == Items.AIR &&
+
+                entity.inventory.get(72).getItem() == Items.AIR &&
+                entity.inventory.get(73).getItem() == Items.AIR &&
+                entity.inventory.get(74).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(75).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(76).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(77).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(78).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(79).getItem() == Items.AIR &&
+                entity.inventory.get(80).getItem() == Items.AIR );
+    }
+
+    private static boolean hasInfinityLeggings(ExtremeCraftingTableBlockEntity entity){
+
+        return(entity.inventory.get(0).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(1).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(2).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(3).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(4).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(5).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(6).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(7).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(8).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+
+                entity.inventory.get(9).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(10).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(11).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(12).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(13).getItem() == AvaritiaModItems.INFINITY_CATALYST &&
+                entity.inventory.get(14).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(15).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(16).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(17).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+
+                entity.inventory.get(18).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(19).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(20).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(21).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(22).getItem() == AvaritiaModItems.INFINITY_CATALYST &&
+                entity.inventory.get(23).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(24).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(25).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(26).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+
+                entity.inventory.get(27).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(28).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(29).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(30).getItem() == Items.AIR &&
+                entity.inventory.get(31).getItem() == Items.AIR &&
+                entity.inventory.get(32).getItem() == Items.AIR &&
+                entity.inventory.get(33).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(34).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(35).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+
+                entity.inventory.get(36).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(37).getItem() == AvaritiaModBlocks.CRYSTAL_MATRIX_BLOCK.asItem() &&
+                entity.inventory.get(38).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(39).getItem() == Items.AIR &&
+                entity.inventory.get(40).getItem() == Items.AIR &&
+                entity.inventory.get(41).getItem() == Items.AIR &&
+                entity.inventory.get(42).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(43).getItem() == AvaritiaModBlocks.CRYSTAL_MATRIX_BLOCK.asItem() &&
+                entity.inventory.get(44).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+
+                entity.inventory.get(45).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(46).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(47).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(48).getItem() == Items.AIR &&
+                entity.inventory.get(49).getItem() == Items.AIR &&
+                entity.inventory.get(50).getItem() == Items.AIR &&
+                entity.inventory.get(51).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(52).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(53).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+
+                entity.inventory.get(54).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(55).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(56).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(57).getItem() == Items.AIR &&
+                entity.inventory.get(58).getItem() == Items.AIR &&
+                entity.inventory.get(59).getItem() == Items.AIR &&
+                entity.inventory.get(60).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(61).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(62).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+
+
+                entity.inventory.get(63).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(64).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(65).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(66).getItem() == Items.AIR &&
+                entity.inventory.get(67).getItem() == Items.AIR &&
+                entity.inventory.get(68).getItem() == Items.AIR &&
+                entity.inventory.get(69).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(70).getItem() == AvaritiaModItems.INFINITY_INGOT &&
+                entity.inventory.get(71).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+
+                entity.inventory.get(72).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(73).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(74).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(75).getItem() == Items.AIR &&
+                entity.inventory.get(76).getItem() == Items.AIR &&
+                entity.inventory.get(77).getItem() == Items.AIR &&
+                entity.inventory.get(78).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(79).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT &&
+                entity.inventory.get(80).getItem() == AvaritiaModItems.NEUTRONIUM_INGOT );
+    }
 
 
 
@@ -592,6 +916,14 @@ public class ExtremeCraftingTableBlockEntity extends BlockEntity implements Name
             craftItem(entity, new ItemStack(AvaritiaModItems.INFINITY_CATALYST, 1));
         }else if(hasInfinityIngot(entity)){
             craftItem(entity, new ItemStack(AvaritiaModItems.INFINITY_INGOT, 1));
+        }else if(hasInfinityHelmet(entity)){
+            craftItem(entity, new ItemStack(AvaritiaModItems.INFINITY_HELMET, 1));
+        }else if(hasInfinityBoots(entity)){
+            craftItem(entity, new ItemStack(AvaritiaModItems.INFINITY_BOOTS, 1));
+        }else if(hasInfinityChestplate(entity)){
+            craftItem(entity, new ItemStack(AvaritiaModItems.INFINITY_CHESTPLATE, 1));
+        }else if(hasInfinityLeggings(entity)){
+            craftItem(entity, new ItemStack(AvaritiaModItems.INFINITY_LEGGINGS, 1));
         }
 
 
