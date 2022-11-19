@@ -7,11 +7,13 @@ import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.inventory.Inventory;
 import net.minecraft.inventory.SimpleInventory;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.screen.ArrayPropertyDelegate;
 import net.minecraft.screen.PropertyDelegate;
 import net.minecraft.screen.ScreenHandler;
 import net.minecraft.screen.slot.Slot;
 import net.minecraft.screen.slot.SlotActionType;
+import net.minecraft.text.Text;
 
 
 public class ExtremeCraftingTableScreenHandler extends ScreenHandler{
@@ -52,18 +54,38 @@ public class ExtremeCraftingTableScreenHandler extends ScreenHandler{
 
 
     @Override
-    public ItemStack transferSlot(PlayerEntity player, int index) {
+    public ItemStack transferSlot(PlayerEntity player, int invSlot) {
+        player.sendMessage(Text.of(String.valueOf(invSlot)), false);
+
         ItemStack newStack = ItemStack.EMPTY;
-        Slot slot = this.slots.get(index);
+        Slot slot = this.slots.get(invSlot);
         if (slot != null && slot.hasStack()) {
             ItemStack originalStack = slot.getStack();
             newStack = originalStack.copy();
-            if (index < this.inventory.size()) {
-                if (!this.insertItem(originalStack, this.inventory.size(), this.slots.size(), true)) {
+
+            if (80 < invSlot && invSlot < 117) {
+                //player.sendMessage(Text.of("shift no inventario"), false);
+                if (!this.insertItem(originalStack, 0, 80, false)) {
                     return ItemStack.EMPTY;
                 }
-            } else if (!this.insertItem(originalStack, 0, this.inventory.size(), false)) {
-                return ItemStack.EMPTY;
+            } else if (invSlot == 117) {
+                //player.sendMessage(Text.of("shift no output slot"), false);
+
+                if (!this.insertItem(originalStack, 81, 116, false)) {
+                    return ItemStack.EMPTY;
+                } else {
+                    for (int i = 0; i < 81; ++i) {
+                        if (this.getSlot(i).getStack().getCount() != 0) {
+                            this.getSlot(i).getStack().setCount(this.getSlot(i).getStack().getCount() - 1);
+                        }
+                    }
+                }
+
+            } else {
+                //player.sendMessage(Text.of("shift na crafting"), false);
+                if (!this.insertItem(originalStack, 81, 116, false)) {
+                    return ItemStack.EMPTY;
+                }
             }
 
             if (originalStack.isEmpty()) {
