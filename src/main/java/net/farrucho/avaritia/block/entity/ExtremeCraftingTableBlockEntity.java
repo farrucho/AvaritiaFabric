@@ -2,16 +2,19 @@ package net.farrucho.avaritia.block.entity;
 
 import net.farrucho.avaritia.block.AvaritiaModBlocks;
 import net.farrucho.avaritia.item.AvaritiaModItems;
+import net.farrucho.avaritia.recipe.ExtremeCraftingTableRecipe;
 import net.farrucho.avaritia.screen.ExtremeCraftingTableScreenHandler;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.inventory.Inventories;
+import net.minecraft.inventory.SimpleInventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.screen.NamedScreenHandlerFactory;
+import net.minecraft.screen.PropertyDelegate;
 import net.minecraft.screen.ScreenHandler;
 import net.minecraft.tag.ItemTags;
 import net.minecraft.text.Text;
@@ -20,8 +23,11 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
+import java.util.Optional;
+
 public class ExtremeCraftingTableBlockEntity extends BlockEntity implements NamedScreenHandlerFactory, ImplementedInventory {
     private final DefaultedList<ItemStack> inventory = DefaultedList.ofSize(82, ItemStack.EMPTY);
+
 
     public ExtremeCraftingTableBlockEntity(BlockPos pos, BlockState state) {
         super(ModBlockEntities.EXTREME_CRAFTING_TABLE, pos, state);
@@ -59,6 +65,82 @@ public class ExtremeCraftingTableBlockEntity extends BlockEntity implements Name
     public ScreenHandler createMenu(int syncId, PlayerInventory inv, PlayerEntity player) {
         return new ExtremeCraftingTableScreenHandler(syncId, inv, this);
     }
+
+    public static void tick(World world, BlockPos pos, BlockState state, ExtremeCraftingTableBlockEntity entity) {
+
+    }
+
+
+    /*
+    private static boolean hasRecipe(ExtremeCraftingTableBlockEntity entity) {
+        World world = entity.world;
+        SimpleInventory inventory = new SimpleInventory(entity.inventory.size());
+        for (int i = 0; i < entity.inventory.size(); i++) {
+            inventory.setStack(i, entity.getStack(i));
+        }
+
+        Optional<ExtremeCraftingTableRecipe> match = world.getRecipeManager()
+                .getFirstMatch(ExtremeCraftingTableRecipe.Type.INSTANCE, inventory, world);
+
+        return match.isPresent()
+                && canInsertAmountIntoOutputSlot(inventory)
+                && canInsertItemIntoOutputSlot(inventory, match.get().getOutput());
+    }
+
+
+
+
+
+    private static boolean canInsertItemIntoOutputSlot(SimpleInventory inventory, ItemStack output) {
+        return inventory.getStack(81).getItem() == output.getItem() || inventory.getStack(81).isEmpty();
+        /*for(int i = 0; i < inventory.size(); i++){
+            if(!(inventory.getStack(i).getItem() == output.getItem() || inventory.getStack(2).isEmpty())){
+                return false;
+            }
+        }
+        return true;*/
+    /*}
+
+    private static boolean canInsertAmountIntoOutputSlot(SimpleInventory inventory) {
+        return inventory.getStack(81).getMaxCount() > inventory.getStack(81).getCount();
+        /*return inventory.getStack(2).getMaxCount() > inventory.getStack(2).getCount();
+        for(int i = 0; i < inventory.size(); i++){
+            if(!(inventory.getStack(i).getMaxCount() > inventory.getStack(i).getCount())){
+                return false;
+            }
+        }
+        return true;*/
+    //}
+
+    /*
+    public static void tick(World world, BlockPos pos, BlockState state, ExtremeCraftingTableBlockEntity entity) {
+        if(hasRecipe(entity)) {
+            craftItem(entity);
+        }
+    }
+
+    private static void craftItem(ExtremeCraftingTableBlockEntity entity) {
+        World world = entity.world;
+        SimpleInventory inventory = new SimpleInventory(entity.inventory.size());
+        for (int i = 0; i < entity.inventory.size(); i++) {
+            inventory.setStack(i, entity.getStack(i));
+        }
+
+        Optional<ExtremeCraftingTableRecipe> match = world.getRecipeManager()
+                .getFirstMatch(ExtremeCraftingTableRecipe.Type.INSTANCE, inventory, world);
+
+        if(match.isPresent()) {
+            for (int i = 0; i < entity.inventory.size()-1; i++) {
+                entity.removeStack(i,1);
+            }
+            entity.setStack(81, new ItemStack(match.get().getOutput().getItem(),
+                    entity.getStack(81).getCount() + 1));
+        }
+    }*/
+    //-------------------------
+
+
+    /*
 
     private static boolean hasSkullFireSword(ExtremeCraftingTableBlockEntity entity){
         return (entity.inventory.get(0).getItem() == Items.AIR &&
@@ -932,5 +1014,5 @@ public class ExtremeCraftingTableBlockEntity extends BlockEntity implements Name
         }
     }
 
-
+    */
 }

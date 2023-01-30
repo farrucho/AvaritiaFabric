@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.farrucho.avaritia.block.AvaritiaModBlocks;
 import net.farrucho.avaritia.item.AvaritiaModItems;
 import net.farrucho.avaritia.block.entity.ModBlockEntities;
+import net.farrucho.avaritia.recipe.ModRecipes;
 import net.farrucho.avaritia.screen.ModScreenHandlers;
 import net.farrucho.avaritia.util.ModLootTableModifiers;
 import net.minecraft.item.ItemGroup;
@@ -37,6 +38,7 @@ public class Avaritia implements ModInitializer {
 		AvaritiaModItems.registerModItems();
 		ModBlockEntities.registerAllBlockEntities();
 		ModScreenHandlers.registerAllScreenHandlers();
+		ModRecipes.register();
 		ModLootTableModifiers.modifyLootTables();
 	}
 }

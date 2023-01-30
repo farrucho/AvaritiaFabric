@@ -17,4 +17,5 @@ public class AvaritiaClient implements ClientModInitializer {
         ScreenRegistry.register(ModScreenHandlers.EXTREME_CRAFTING_TABLE_SCREEN_HANDLER, ExtremeCraftingTableScreen::new);
         ScreenRegistry.register(ModScreenHandlers.NEUTRONIUM_COMPRESSOR_SCREEN_HANDLER, NeutroniumCompressorScreen::new);
     }
+
 }
