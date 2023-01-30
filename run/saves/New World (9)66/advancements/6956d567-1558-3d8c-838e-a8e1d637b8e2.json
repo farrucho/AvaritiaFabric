@@ -1,0 +1,15 @@
+{
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2022-11-17 21:22:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:birch_forest": "2022-11-17 21:22:30 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}
